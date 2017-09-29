@@ -1,1 +1,1 @@
-Scripts and input controllers related to character controll
+Scripts and input managers 
