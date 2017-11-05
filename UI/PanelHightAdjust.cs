@@ -3,9 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 public class PanelHightAdjust : MonoBehaviour {
-	// Use this for initialization
-	void Start () {
-	}
+	//Changes Panel size to fit in to Canvas, that means that there will be no scaling issue on any aspect ratio.
+	//make sure you have set a horizontal Layout Group on your canvas so the panels are horizontali aligned too!
 	
 	// Update is called once per frame
 	void Update () {
