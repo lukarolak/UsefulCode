@@ -1,0 +1,2 @@
+These scripts work with a holder I ususaly call GameManager that holds all the important info/variables for scripts to work,
+make sure that you set a GameManger before using these scripts
