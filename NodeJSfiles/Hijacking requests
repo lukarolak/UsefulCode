@@ -3,3 +3,9 @@
 event.respondWith(
    new Response("Hello")
  );
+ 
+ //Changes the text to be read as html
+ event.respondWith(
+   new Response("<b>Hello</b>", {
+     headers: {'Content-Type':'text/html'}
+   })
