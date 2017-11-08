@@ -1,8 +1,0 @@
-event.respondWith(
-   new Response("<b class='a-winner-is-me'>Hello</b>", {
-     headers: {'Content-Type':'text/html'},
-     class: {"a-winner-is-me"}
-   })
-    // = "text/html;charset=UTF-8"
-   
- );
