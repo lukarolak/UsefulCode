@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
+//USING NAV MESH!!
+
 public class CharacterController : MonoBehaviour {
 	public bool UseNavMesh; //Script uses NavMeshAgent instead clasical transform.position method
 	private NavMeshAgent Agent;
