@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+//FPS mouse rotator
 public class RotateTowardsMouse : MonoBehaviour {
 	public float sensitivity = 0.0001f;
 	void Update ()
