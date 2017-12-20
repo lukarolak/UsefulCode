@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-//Script for camera movemnt and rotation towards a GameObject(usually player)
+//Script for camera movement and rotation towards a GameObject(usually player)
 public class CameraAI : MonoBehaviour {
 	public GameObject MoveTo;
 	public GameObject RotateTo;
