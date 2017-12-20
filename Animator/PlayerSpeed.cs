@@ -3,12 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerSpeed : MonoBehaviour {
-
-	// Use this for initialization
-	void Start () 
-	{
-		
-	}
+//Script that returns GameObject speed in it's local space
 	IEnumerator Wait()
 	{
 		Vector3 Start = gameObject.transform.position;
