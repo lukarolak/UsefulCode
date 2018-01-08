@@ -7,6 +7,7 @@ using System.Net;
 using System.Text;  
 using System.IO;    
 
+//https://app.getpostman.com/run-collection/ea99d268e71feb79fae9
 public class Main : MonoBehaviour {
 	void PostHTTP(){
 		HttpWebRequest request = (HttpWebRequest)WebRequest.Create ("http://memorygameapi20171230021939.azurewebsites.net/api/score");
