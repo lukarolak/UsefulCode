@@ -1,6 +1,0 @@
-//commmands related to local server project
-git clone https://github.com/jakearchibald/wittr //clones git repository
-npm install //installs project
-npm run serve //starts the server, CTRL+C to close it
-git reset --hard //reverts all previus commits
-git checkout task-register-sw  //updates the selected branch
