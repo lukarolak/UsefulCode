@@ -14,7 +14,7 @@
 	PRIVATE
 		0 = Public
    	 	1 = Unlisted (Not linked in google)
-    		2 = Private (only allowed in combination with api_user_key, as you have to be logged into your account to access the paste)
+    	2 = Private (only allowed in combination with api_user_key, as you have to be logged into your account to access the paste)
 		NOTE FOR FREE USERS:
 			Public pastes:		unlimited
 			Unlisted pastes:	25
