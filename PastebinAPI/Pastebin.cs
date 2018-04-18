@@ -154,10 +154,12 @@ public class Pastebin : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		//IUserKey = GetUserKey(); Fills IUserKey with user key
-		
-		//Send("THIS IS A TEST 2","TEST 2",IExpireDate: IExpireDateEnum.e10M);
 
-		Send(IOption: IOptionEnum.eList);
+		//Sends a paste
+		//Send("Body","Subject",IExpireDate: IExpireDateEnum.e10M);
+		
+		//Get's all posts made by user
+		//Send(IOption: IOptionEnum.eList);
 
 	}
 	
