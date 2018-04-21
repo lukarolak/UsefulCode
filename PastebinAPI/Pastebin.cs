@@ -38,8 +38,8 @@ public class Pastebin : MonoBehaviour {
 	
 	private string ILoginURL = 	"http://pastebin.com/api/api_login.php";
     private string IPostURL  = 	"http://pastebin.com/api/api_post.php";
-    private string IDevKey 	 = 	"7347ec57952ed3315a1b6126fca86405"; //Your dev key here <--
-    private string IUserKey  = 	"25d5e2c6603fc422a42fa8824cd7ee80"; //Use GetUserKey() to get this key
+    private string IDevKey 	 = 	; //Your dev key here <--
+    private string IUserKey  = 	; //Use GetUserKey() to get this key
 
 	public enum IExpireDateEnum{ //This is so I don't have to pass string, This is a much safer way to handle passing of fixed amount of arg!
 		eN,e10M,e1H,e1D,e1W,e2W,e1M,e6M,e1Y
